@@ -134,7 +134,7 @@ end
 results = [psymbols codes];
 
 %ShannonFano Algorithm
-SF = shannonfano(results)
+SF = shanonfano(results)
 
 set(handles.results_table,'data',SF);
 
