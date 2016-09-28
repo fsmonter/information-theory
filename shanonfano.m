@@ -1,4 +1,4 @@
-function sf = shanonfano(probabilities)
+function sf = shannonfano(probabilities)
 limit = size(probabilities,1);
 
  if limit == 1
@@ -37,11 +37,11 @@ next_limit = 1;
     next_limit
     %Call for upper side
     upper = [probabilities(1:next_limit,:)]
-    probabilities(1:next_limit,:) = shanonfano(upper)
+    probabilities(1:next_limit,:) = shannonfano(upper)
     
     %Call for down side} 
     downside = [probabilities(next_limit + 1:limit,:)]
-    probabilities(next_limit + 1:limit,:) = shanonfano(downside)
+    probabilities(next_limit + 1:limit,:) = shannonfano(downside)
     
     sf = probabilities(1:limit,:)
 end
