@@ -1,11 +1,13 @@
 function sf = shannonfano(probabilities)
 limit = size(probabilities,1);
 
+ %Recursion stop
  if limit == 1
      sf = probabilities(1,:)
      return;
  end
  
+ %Recursion stop
  if limit == 2
    probabilities(1,3) = strcat(probabilities(1,3), '1');
    probabilities(1,3) = probabilities(1,3)
