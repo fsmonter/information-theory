@@ -1,5 +1,4 @@
-# Information Theory Scripts with Matlab
-Matlab Scripts for Information Theory.
+# Compression algorithms written in Matlab
 
-- Shannon-Fano Compress Algorithm includes script. GUI and CLI.
-. JPEG compression algorithm. GUI and CLI.
+-Shannon-Fano Compress Algorithm includes script.
+-JPEG compression algorithm. 
