@@ -1,4 +1,4 @@
 # Compression algorithms written in Matlab from 2016
 
-- Shannon-Fano Compress Algorithm includes script.
+- Shannon-Fano Compress Algorithm.
 - JPEG compression algorithm. 
